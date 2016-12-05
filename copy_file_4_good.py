@@ -10,8 +10,8 @@ import shutil
 sourcePath = r'C:\test_1'
 destPath = r'\\aerobytesprod\AerobytesLoad\_Failed Replays'
 ls=os.listdir('.')#list current dir
-print('listing current dir\n')
-print(ls)
+#print('listing current dir\n')
+#print(ls)
 for root, dirs, files in os.walk(sourcePath):
 
     #figure out where we're going
