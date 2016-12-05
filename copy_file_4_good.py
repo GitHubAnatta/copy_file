@@ -8,7 +8,7 @@ Created on Wed Jun 01 17:05:07 2016
 import os
 import shutil
 sourcePath = r'C:\test_1'
-destPath = r'\\aerobytesprod\AerobytesLoad\_Failed Replays'
+destPath = r'\\aerobytesprod\AerobytesLoad\_Failed Replays\test_2'
 ls=os.listdir('.')#list current dir
 #print('listing current dir\n')
 #print(ls)
